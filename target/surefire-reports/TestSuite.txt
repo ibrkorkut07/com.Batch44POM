@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.459 sec <<< FAILURE!
+test01(tests.day16.C01_DriverIlkTest)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at utilities.ConfigReader.getProperty(ConfigReader.java:17)
+	at utilities.Driver.getDriver(Driver.java:22)
+	at tests.day16.C01_DriverIlkTest.test01(C01_DriverIlkTest.java:15)
+
+test02(tests.day16.C01_DriverIlkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at utilities.ConfigReader.getProperty(ConfigReader.java:17)
+	at utilities.Driver.getDriver(Driver.java:22)
+	at tests.day16.C01_DriverIlkTest.test02(C01_DriverIlkTest.java:32)
+
